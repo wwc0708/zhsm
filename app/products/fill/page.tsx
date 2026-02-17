@@ -69,7 +69,7 @@ export default function FillPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  概念介绍
+                  {t('concept.intro')}
                 </h3>
                 <p
                   className="mb-4"
@@ -117,7 +117,7 @@ export default function FillPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  产品案例
+                  {t('product.cases')}
                 </h3>
                 <div className="row g-4">
                   <div className="col-12 col-md-4">
@@ -154,7 +154,7 @@ export default function FillPage() {
                           marginBottom: '0',
                         }}
                       >
-                        管材
+                        {t('case.plastic.pipe')}
                       </p>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ export default function FillPage() {
                           marginBottom: '0',
                         }}
                       >
-                        板材
+                        {t('case.sheets')}
                       </p>
                     </div>
                   </div>
@@ -230,7 +230,7 @@ export default function FillPage() {
                           marginBottom: '0',
                         }}
                       >
-                        薄膜制品
+                        {t('case.film.products')}
                       </p>
                     </div>
                   </div>

@@ -69,7 +69,7 @@ export default function SheetPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  概念介绍
+                  {t('concept.intro')}
                 </h3>
                 <p
                   className="mb-4"
@@ -107,7 +107,7 @@ export default function SheetPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  产品案例
+                  {t('product.cases')}
                 </h3>
                 <div className="row g-4">
                   <div className="col-12 col-md-3">
@@ -144,7 +144,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        吸塑包装盒
+                        {t('case.thermoformed.box')}
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        餐盒
+                        {t('case.meal.box')}
                       </p>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        药瓶包装
+                        {t('case.medicine.packaging')}
                       </p>
                     </div>
                   </div>
@@ -258,7 +258,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        化妆品包装
+                        {t('case.cosmetic.packaging')}
                       </p>
                     </div>
                   </div>

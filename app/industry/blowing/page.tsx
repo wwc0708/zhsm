@@ -69,7 +69,7 @@ export default function BlowingPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  概念介绍
+                  {t('concept.intro')}
                 </h3>
                 <p
                   className="mb-4"
@@ -107,7 +107,7 @@ export default function BlowingPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  产品案例
+                  {t('product.cases')}
                 </h3>
                 <div className="row g-4">
                   <div className="col-12 col-md-3">
@@ -144,7 +144,7 @@ export default function BlowingPage() {
                           marginBottom: '0',
                         }}
                       >
-                        垃圾袋
+                        {t('case.garbage.bag')}
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@ export default function BlowingPage() {
                           marginBottom: '0',
                         }}
                       >
-                        服装袋
+                        {t('case.garment.bag')}
                       </p>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ export default function BlowingPage() {
                           marginBottom: '0',
                         }}
                       >
-                        农地膜
+                        {t('case.agricultural.film')}
                       </p>
                     </div>
                   </div>
@@ -258,7 +258,7 @@ export default function BlowingPage() {
                           marginBottom: '0',
                         }}
                       >
-                        食品包装膜
+                        {t('case.food.film')}
                       </p>
                     </div>
                   </div>

@@ -69,7 +69,7 @@ export default function PipePage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  概念介绍
+                  {t('concept.intro')}
                 </h3>
                 <p
                   className="mb-4"
@@ -107,7 +107,7 @@ export default function PipePage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  产品案例
+                  {t('product.cases')}
                 </h3>
                 <div className="row g-4">
                   <div className="col-12 col-md-4">
@@ -144,7 +144,7 @@ export default function PipePage() {
                           marginBottom: '0',
                         }}
                       >
-                        给排水系统
+                        {t('case.water.system')}
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@ export default function PipePage() {
                           marginBottom: '0',
                         }}
                       >
-                        天然气输送管道
+                        {t('case.gas.pipeline')}
                       </p>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ export default function PipePage() {
                           marginBottom: '0',
                         }}
                       >
-                        工业管道
+                        {t('case.industrial.pipeline')}
                       </p>
                     </div>
                   </div>

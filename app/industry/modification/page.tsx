@@ -70,7 +70,7 @@ export default function ModificationPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  概念介绍
+                  {t('concept.intro')}
                 </h3>
                 <p
                   className="mb-4"
@@ -118,7 +118,7 @@ export default function ModificationPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  产品案例
+                  {t('product.cases')}
                 </h3>
                 <div className="row g-4">
                   <div className="col-12 col-md-4">
@@ -155,7 +155,7 @@ export default function ModificationPage() {
                           marginBottom: '0',
                         }}
                       >
-                        工程塑料部件
+                        {t('case.engineering.parts')}
                       </p>
                     </div>
                   </div>
@@ -193,7 +193,7 @@ export default function ModificationPage() {
                           marginBottom: '0',
                         }}
                       >
-                        电子元件
+                        {t('case.electronic.components')}
                       </p>
                     </div>
                   </div>
@@ -231,7 +231,7 @@ export default function ModificationPage() {
                           marginBottom: '0',
                         }}
                       >
-                        汽车零部件
+                        {t('case.auto.parts')}
                       </p>
                     </div>
                   </div>

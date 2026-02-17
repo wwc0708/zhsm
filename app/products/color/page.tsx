@@ -69,7 +69,7 @@ export default function ColorPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  概念介绍
+                  {t('concept.intro')}
                 </h3>
                 <p
                   className="mb-4"
@@ -117,7 +117,7 @@ export default function ColorPage() {
                   className="mb-4"
                   style={{ fontWeight: '600', color: '#1a1a1a' }}
                 >
-                  产品案例
+                  {t('product.cases')}
                 </h3>
                 <div className="row g-4">
                   <div className="col-12 col-md-4">
@@ -154,7 +154,7 @@ export default function ColorPage() {
                           marginBottom: '0',
                         }}
                       >
-                        玩具
+                        {t('case.toys')}
                       </p>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ export default function ColorPage() {
                           marginBottom: '0',
                         }}
                       >
-                        日用品
+                        {t('case.daily.products')}
                       </p>
                     </div>
                   </div>
@@ -230,7 +230,7 @@ export default function ColorPage() {
                           marginBottom: '0',
                         }}
                       >
-                        家电
+                        {t('case.appliance.casing')}
                       </p>
                     </div>
                   </div>
