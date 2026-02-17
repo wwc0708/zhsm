@@ -39,7 +39,7 @@ export default function Navbar() {
       <Container fluid="lg">
         <Link href="/" className="navbar-brand d-flex align-items-center" style={{ textDecoration: 'none' }}>
           <Image
-            src="/logo.png"
+            src="/zhsm/logo.png"
             alt="Zhihe Logo"
             width={50}
             height={50}
