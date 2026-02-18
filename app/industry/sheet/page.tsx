@@ -136,6 +136,8 @@ export default function SheetPage() {
                       }}
                     >
 <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src={`${basePath}/Thermoformed_Packaging_Boxes.png`}
                           alt="Thermoformed Packaging Boxes"
                           fill
                           style={{ objectFit: 'contain' }}
