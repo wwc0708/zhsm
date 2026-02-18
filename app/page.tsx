@@ -139,122 +139,140 @@ export default function Home() {
         <div className="container">
           <div className="row g-4">
             <div className="col-12 col-md-4">
-              <div
-                className="card h-100 border-0"
-                style={{
-                  borderRadius: '20px',
-                  padding: '2rem',
-                  backgroundColor: '#f8f9fa',
-                  transition: 'all 0.3s ease',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-5px)';
-                  e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
-                  e.currentTarget.style.backgroundColor = '#fff0f0';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = 'none';
-                  e.currentTarget.style.backgroundColor = '#f8f9fa';
-                }}
+              <Link
+                href="/industry/modification"
+                style={{ textDecoration: 'none' }}
               >
-                <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <img
-                    src={`${basePath}/Industry.png`}
-                    alt="Industry"
-                    style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
-                  />
-                </div>
-                <h3
-                  className="text-center mb-3"
-                  style={{ fontWeight: '600', color: '#1a1a1a' }}
+                <div
+                  className="card h-100 border-0"
+                  style={{
+                    borderRadius: '20px',
+                    padding: '2rem',
+                    backgroundColor: '#f8f9fa',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+                    e.currentTarget.style.backgroundColor = '#fff0f0';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.backgroundColor = '#f8f9fa';
+                  }}
                 >
-                  {t('nav.industry')}
-                </h3>
-                <p className="text-center" style={{ color: '#666', lineHeight: '1.6' }}>
-                  {t('industry.modification')}, {t('industry.blowing')},{' '}
-                  {t('industry.sheet')}, {t('industry.casting')},{' '}
-                  {t('industry.pipe')}
-                </p>
-              </div>
+                  <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <img
+                      src={`${basePath}/Industry.png`}
+                      alt="Industry"
+                      style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
+                    />
+                  </div>
+                  <h3
+                    className="text-center mb-3"
+                    style={{ fontWeight: '600', color: '#1a1a1a' }}
+                  >
+                    {t('nav.industry')}
+                  </h3>
+                  <p className="text-center" style={{ color: '#666', lineHeight: '1.6' }}>
+                    {t('industry.modification')}, {t('industry.blowing')},{' '}
+                    {t('industry.sheet')}, {t('industry.casting')},{' '}
+                    {t('industry.pipe')}
+                  </p>
+                </div>
+              </Link>
             </div>
             <div className="col-12 col-md-4">
-              <div
-                className="card h-100 border-0"
-                style={{
-                  borderRadius: '20px',
-                  padding: '2rem',
-                  backgroundColor: '#f8f9fa',
-                  transition: 'all 0.3s ease',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-5px)';
-                  e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
-                  e.currentTarget.style.backgroundColor = '#fff0f0';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = 'none';
-                  e.currentTarget.style.backgroundColor = '#f8f9fa';
-                }}
+              <Link
+                href="/products/black"
+                style={{ textDecoration: 'none' }}
               >
-                <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <img
-                    src={`${basePath}/Products.png`}
-                    alt="Products"
-                    style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
-                  />
-                </div>
-                <h3
-                  className="text-center mb-3"
-                  style={{ fontWeight: '600', color: '#1a1a1a' }}
+                <div
+                  className="card h-100 border-0"
+                  style={{
+                    borderRadius: '20px',
+                    padding: '2rem',
+                    backgroundColor: '#f8f9fa',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+                    e.currentTarget.style.backgroundColor = '#fff0f0';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.backgroundColor = '#f8f9fa';
+                  }}
                 >
-                  {t('nav.products')}
-                </h3>
-                <p className="text-center" style={{ color: '#666', lineHeight: '1.6' }}>
-                  {t('products.black')}, {t('products.white')},{' '}
-                  {t('products.color')}, {t('products.fill')},{' '}
-                  {t('products.function')}
-                </p>
-              </div>
+                  <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <img
+                      src={`${basePath}/Products.png`}
+                      alt="Products"
+                      style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
+                    />
+                  </div>
+                  <h3
+                    className="text-center mb-3"
+                    style={{ fontWeight: '600', color: '#1a1a1a' }}
+                  >
+                    {t('nav.products')}
+                  </h3>
+                  <p className="text-center" style={{ color: '#666', lineHeight: '1.6' }}>
+                    {t('products.black')}, {t('products.white')},{' '}
+                    {t('products.color')}, {t('products.fill')},{' '}
+                    {t('products.function')}
+                  </p>
+                </div>
+              </Link>
             </div>
             <div className="col-12 col-md-4">
-              <div
-                className="card h-100 border-0"
-                style={{
-                  borderRadius: '20px',
-                  padding: '2rem',
-                  backgroundColor: '#f8f9fa',
-                  transition: 'all 0.3s ease',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-5px)';
-                  e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
-                  e.currentTarget.style.backgroundColor = '#fff0f0';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = 'none';
-                  e.currentTarget.style.backgroundColor = '#f8f9fa';
-                }}
+              <Link
+                href="/contact"
+                style={{ textDecoration: 'none' }}
               >
-                <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  <img
-                    src={`${basePath}/Contact.png`}
-                    alt="Contact"
-                    style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
-                  />
-                </div>
-                <h3
-                  className="text-center mb-3"
-                  style={{ fontWeight: '600', color: '#1a1a1a' }}
+                <div
+                  className="card h-100 border-0"
+                  style={{
+                    borderRadius: '20px',
+                    padding: '2rem',
+                    backgroundColor: '#f8f9fa',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+                    e.currentTarget.style.backgroundColor = '#fff0f0';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.backgroundColor = '#f8f9fa';
+                  }}
                 >
-                  {t('nav.contact')}
-                </h3>
-                <p className="text-center" style={{ color: '#666', lineHeight: '1.6' }}>
-                  15818308513
-                </p>
-              </div>
+                  <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <img
+                      src={`${basePath}/Contact.png`}
+                      alt="Contact"
+                      style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
+                    />
+                  </div>
+                  <h3
+                    className="text-center mb-3"
+                    style={{ fontWeight: '600', color: '#1a1a1a' }}
+                  >
+                    {t('nav.contact')}
+                  </h3>
+                  <p className="text-center" style={{ color: '#666', lineHeight: '1.6' }}>
+                    15818308513
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
