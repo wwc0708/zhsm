@@ -15,17 +15,10 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-// Hide Bootstrap's default dropdown toggle arrow and ensure consistent height
+// Hide Bootstrap's default dropdown toggle arrow
 const styles = `
   .dropdown-toggle::after {
     display: none !important;
-  }
-  .nav-link, .dropdown-toggle {
-    display: flex !important;
-    align-items: center !important;
-    height: 48px !important;
-    box-sizing: border-box !important;
-    padding: 0.75rem 1rem !important;
   }
 `;
 
@@ -109,6 +102,7 @@ export default function Navbar() {
                   fontWeight: isActive('/') ? '600' : '400',
                   padding: '0.75rem 1rem',
                   fontSize: '1rem',
+                  lineHeight: '1.5',
                   transition: 'all 0.3s ease',
                 }}
               >
@@ -392,6 +386,7 @@ export default function Navbar() {
                   fontWeight: isActive('/contact') ? '600' : '400',
                   padding: '0.75rem 1rem',
                   fontSize: '1rem',
+                  lineHeight: '1.5',
                   transition: 'all 0.3s ease',
                 }}
               >
