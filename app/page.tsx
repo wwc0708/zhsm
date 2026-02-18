@@ -160,7 +160,7 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <div style={{ width: '120px', height: '120px', position: 'relative', margin: '0 auto' }}>
+                  <div style={{ width: '180px', height: '180px', position: 'relative', margin: '0 auto' }}>
                     <Image
                       src={`${basePath}/Industry.png`}
                       alt="Industry"
@@ -203,7 +203,7 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <div style={{ width: '120px', height: '120px', position: 'relative', margin: '0 auto' }}>
+                  <div style={{ width: '180px', height: '180px', position: 'relative', margin: '0 auto' }}>
                     <Image
                       src={`${basePath}/Products.png`}
                       alt="Products"
@@ -246,7 +246,7 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <div style={{ width: '120px', height: '120px', position: 'relative', margin: '0 auto' }}>
+                  <div style={{ width: '180px', height: '180px', position: 'relative', margin: '0 auto' }}>
                     <Image
                       src={`${basePath}/Contact.png`}
                       alt="Contact"
