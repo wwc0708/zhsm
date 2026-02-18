@@ -24,6 +24,8 @@ const styles = `
     display: flex !important;
     align-items: center !important;
     height: 48px !important;
+    box-sizing: border-box !important;
+    padding: 0.75rem 1rem !important;
   }
 `;
 
