@@ -158,11 +158,11 @@ export default function Home() {
                   e.currentTarget.style.backgroundColor = '#f8f9fa';
                 }}
               >
-                <div className="text-center mb-3">
+                <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <img
                     src={`${basePath}/Industry.png`}
                     alt="Industry"
-                    style={{ width: '180px', height: '180px', objectFit: 'contain' }}
+                    style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
                   />
                 </div>
                 <h3
@@ -198,11 +198,11 @@ export default function Home() {
                   e.currentTarget.style.backgroundColor = '#f8f9fa';
                 }}
               >
-                <div className="text-center mb-3">
+                <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <img
                     src={`${basePath}/Products.png`}
                     alt="Products"
-                    style={{ width: '180px', height: '180px', objectFit: 'contain' }}
+                    style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
                   />
                 </div>
                 <h3
@@ -238,11 +238,11 @@ export default function Home() {
                   e.currentTarget.style.backgroundColor = '#f8f9fa';
                 }}
               >
-                <div className="text-center mb-3">
+                <div className="text-center mb-3" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                   <img
                     src={`${basePath}/Contact.png`}
                     alt="Contact"
-                    style={{ width: '180px', height: '180px', objectFit: 'contain' }}
+                    style={{ width: '180px', height: '180px', objectFit: 'contain', display: 'block' }}
                   />
                 </div>
                 <h3
