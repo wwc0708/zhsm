@@ -3,6 +3,7 @@
 import React from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import Link from 'next/link';
+import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -53,16 +54,15 @@ export default function FunctionPage() {
                 style={{
                   width: '100%',
                   height: '300px',
-                  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                  position: 'relative',
                 }}
               >
-                <i
-                  className="bi bi-gear-wide-connected"
-                  style={{ fontSize: '6rem', color: 'rgba(255,255,255,0.8)' }}
-                ></i>
+                <Image
+                  src="/images/Functional_Masterbatch.png"
+                  alt="Functional Masterbatch"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
               <div className="card-body p-4 p-md-5">
                 <h3
@@ -151,10 +151,14 @@ export default function FunctionPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-trash mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Garbage_Bags.png"
+                          alt="Garbage Bags"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -189,10 +193,14 @@ export default function FunctionPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-shield-check mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Engineering_Waterproof_Films.png"
+                          alt="Engineering Waterproof Films"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -227,10 +235,14 @@ export default function FunctionPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-cpu mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Eletronic_Packaging.png"
+                          alt="Electronic Packaging"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',

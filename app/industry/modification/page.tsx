@@ -54,16 +54,15 @@ export default function ModificationPage() {
                 style={{
                   width: '100%',
                   height: '300px',
-                  background: 'linear-gradient(135deg, #ff3b30 0%, #ff6b5b 100%)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                  position: 'relative',
                 }}
               >
-                <i
-                  className="bi bi-box-seam"
-                  style={{ fontSize: '6rem', color: 'rgba(255,255,255,0.8)' }}
-                ></i>
+                <Image
+                  src="/images/Modification_Pelletizing.png"
+                  alt="Modification Pelletizing"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
               <div className="card-body p-4 p-md-5">
                 <h3
@@ -144,10 +143,14 @@ export default function ModificationPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-cpu mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Engineer_Plastic_Parts.png"
+                          alt="Engineer Plastic Parts"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -182,10 +185,14 @@ export default function ModificationPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-circuit mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Eletronic_Components.png"
+                          alt="Electronic Components"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -220,10 +227,14 @@ export default function ModificationPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-car-front mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Automotive_Parts.png"
+                          alt="Automotive Parts"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',

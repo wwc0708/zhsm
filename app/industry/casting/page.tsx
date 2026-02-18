@@ -3,6 +3,7 @@
 import React from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import Link from 'next/link';
+import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -53,16 +54,15 @@ export default function CastingPage() {
                 style={{
                   width: '100%',
                   height: '300px',
-                  background: 'linear-gradient(135deg, #ff3b30 0%, #ff6b5b 100%)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                  position: 'relative',
                 }}
               >
-                <i
-                  className="bi bi-layers"
-                  style={{ fontSize: '6rem', color: 'rgba(255,255,255,0.8)' }}
-                ></i>
+                <Image
+                  src="/images/Cast_Film.png"
+                  alt="Cast Film"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
               <div className="card-body p-4 p-md-5">
                 <h3
@@ -133,10 +133,14 @@ export default function CastingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-shield-check mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Engineering_Waterproof_Films.png"
+                          alt="Engineering Waterproof Films"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -171,10 +175,14 @@ export default function CastingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-heart-pulse mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Hygiene_Products.png"
+                          alt="Hygiene Products"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -209,10 +217,14 @@ export default function CastingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-basket mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Food_Packaging_Films.png"
+                          alt="Food Packaging Films"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',

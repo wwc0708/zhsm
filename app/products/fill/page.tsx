@@ -3,6 +3,7 @@
 import React from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import Link from 'next/link';
+import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -53,16 +54,15 @@ export default function FillPage() {
                 style={{
                   width: '100%',
                   height: '300px',
-                  background: 'linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                  position: 'relative',
                 }}
               >
-                <i
-                  className="bi bi-layers-half"
-                  style={{ fontSize: '6rem', color: 'rgba(255,255,255,0.8)' }}
-                ></i>
+                <Image
+                  src="/images/Filler_Masterbatch.png"
+                  alt="Filler Masterbatch"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
               <div className="card-body p-4 p-md-5">
                 <h3
@@ -143,10 +143,14 @@ export default function FillPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-water mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Plastic_Pipes.png"
+                          alt="Plastic Pipes"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -181,10 +185,14 @@ export default function FillPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-grid-3x3 mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Sheets.png"
+                          alt="Sheets"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -219,10 +227,14 @@ export default function FillPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-film mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Film_Products.png"
+                          alt="Film Products"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',

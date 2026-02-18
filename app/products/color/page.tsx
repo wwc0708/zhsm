@@ -3,6 +3,7 @@
 import React from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import Link from 'next/link';
+import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -53,16 +54,15 @@ export default function ColorPage() {
                 style={{
                   width: '100%',
                   height: '300px',
-                  background: 'linear-gradient(135deg, #ff3b30 0%, #ff9f43 50%, #00d2d3 100%)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                  position: 'relative',
                 }}
               >
-                <i
-                  className="bi bi-palette"
-                  style={{ fontSize: '6rem', color: 'rgba(255,255,255,0.9)' }}
-                ></i>
+                <Image
+                  src="/images/Color_Masterbatch.png"
+                  alt="Color Masterbatch"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
               <div className="card-body p-4 p-md-5">
                 <h3
@@ -143,10 +143,14 @@ export default function ColorPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-puzzle mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Toys.png"
+                          alt="Toys"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -181,10 +185,14 @@ export default function ColorPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-cart3 mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Daily_Products.png"
+                          alt="Daily Products"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
@@ -219,10 +227,14 @@ export default function ColorPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <i
-                        className="bi bi-lightning mb-3"
-                        style={{ fontSize: '3rem', color: '#ff3b30' }}
-                      ></i>
+                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                        <Image
+                          src="/images/Color_Appliance_Casings.png"
+                          alt="Color Appliance Casings"
+                          fill
+                          style={{ objectFit: 'contain' }}
+                        />
+                      </div>
                       <p
                         style={{
                           color: '#1a1a1a',
