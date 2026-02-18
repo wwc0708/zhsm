@@ -15,6 +15,13 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+// Hide Bootstrap's default dropdown toggle arrow
+const styles = `
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+`;
+
 export default function Navbar() {
   const { language, setLanguage, t } = useLanguage();
   const pathname = usePathname();
@@ -26,6 +33,8 @@ export default function Navbar() {
   const isActive = (path: string) => pathname === path;
 
   return (
+    <>
+      <style>{styles}</style>
     <BootstrapNavbar
       expand="lg"
       className="navbar-custom sticky-top"
@@ -482,5 +491,6 @@ export default function Navbar() {
         </BootstrapNavbar.Offcanvas>
       </Container>
     </BootstrapNavbar>
+    </>
   );
 }
