@@ -24,18 +24,18 @@ const styles = `
     .nav-link,
     .nav-dropdown-custom.dropdown-toggle,
     .nav-item .dropdown-toggle {
-      height: 48px !important;
+      height: 42px !important;
       display: flex !important;
       align-items: center !important;
-      padding: 0.75rem 1rem !important;
+      padding: 0.5rem 1rem !important;
       box-sizing: border-box !important;
       line-height: 1 !important;
     }
     .nav-dropdown-custom .dropdown-toggle {
-      height: 48px !important;
+      height: 42px !important;
       display: flex !important;
       align-items: center !important;
-      padding: 0.75rem 1rem !important;
+      padding: 0.5rem 1rem !important;
       box-sizing: border-box !important;
       line-height: 1 !important;
     }
@@ -120,7 +120,7 @@ export default function Navbar() {
                 style={{
                   color: isActive('/') ? '#ff3b30' : '#1a1a1a',
                   fontWeight: isActive('/') ? '600' : '400',
-                  padding: '0.75rem 1rem',
+                  padding: '0.5rem 1rem',
                   fontSize: '1rem',
                   lineHeight: '1.5',
                   transition: 'all 0.3s ease',
@@ -410,7 +410,7 @@ export default function Navbar() {
                 style={{
                   color: isActive('/contact') ? '#ff3b30' : '#1a1a1a',
                   fontWeight: isActive('/contact') ? '600' : '400',
-                  padding: '0.75rem 1rem',
+                  padding: '0.5rem 1rem',
                   fontSize: '1rem',
                   lineHeight: '1.5',
                   transition: 'all 0.3s ease',
