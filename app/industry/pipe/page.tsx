@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function PipePage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function PipePage() {
                 }}
               >
                 <Image
-                  src="/Plastic_Pipes.png"
+                  src={`${basePath}/Plastic_Pipes.png`}
                   alt="Plastic Pipes"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +137,7 @@ export default function PipePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Water_Supply_Drainage_Systems.png"
+                          src={`${basePath}/Water_Supply_Drainage_Systems.png`}
                           alt="Water Supply Drainage Systems"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +179,7 @@ export default function PipePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Natural_Gas_pipelines.png"
+                          src={`${basePath}/Natural_Gas_pipelines.png`}
                           alt="Natural Gas Pipelines"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +221,7 @@ export default function PipePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Industrial_Pipes.png"
+                          src={`${basePath}/Industrial_Pipes.png`}
                           alt="Industrial Pipes"
                           fill
                           style={{ objectFit: 'contain' }}

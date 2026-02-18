@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function BlowingPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function BlowingPage() {
                 }}
               >
                 <Image
-                  src="/Blown_Film.png"
+                  src={`${basePath}/Blown_Film.png`}
                   alt="Blown Film"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +137,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Garbage_Bags.png"
+                          src={`${basePath}/Garbage_Bags.png`}
                           alt="Garbage Bags"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +179,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Garment_Bags.png"
+                          src={`${basePath}/Garment_Bags.png`}
                           alt="Garment Bags"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +221,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Agricultural_Films.png"
+                          src={`${basePath}/Agricultural_Films.png`}
                           alt="Agricultural Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -261,7 +263,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Food_Packaging_Films.png"
+                          src={`${basePath}/Food_Packaging_Films.png`}
                           alt="Food Packaging Films"
                           fill
                           style={{ objectFit: 'contain' }}

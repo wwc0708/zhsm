@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function ColorPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function ColorPage() {
                 }}
               >
                 <Image
-                  src="/Color_Masterbatch.png"
+                  src={`${basePath}/Color_Masterbatch.png`}
                   alt="Color Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +147,7 @@ export default function ColorPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Toys.png"
+                          src={`${basePath}/Toys.png`}
                           alt="Toys"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +189,7 @@ export default function ColorPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Daily_Products.png"
+                          src={`${basePath}/Daily_Products.png`}
                           alt="Daily Products"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +231,7 @@ export default function ColorPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Color_Appliance_Casings.png"
+                          src={`${basePath}/Color_Appliance_Casings.png`}
                           alt="Color Appliance Casings"
                           fill
                           style={{ objectFit: 'contain' }}

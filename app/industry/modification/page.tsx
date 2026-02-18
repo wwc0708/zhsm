@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function ModificationPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function ModificationPage() {
                 }}
               >
                 <Image
-                  src="/Modification_Pelletizing.png"
+                  src={`${basePath}/Modification_Pelletizing.png`}
                   alt="Modification Pelletizing"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +147,7 @@ export default function ModificationPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Engineer_Plastic_Parts.png"
+                          src={`${basePath}/Engineer_Plastic_Parts.png`}
                           alt="Engineer Plastic Parts"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +189,7 @@ export default function ModificationPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Eletronic_Components.png"
+                          src={`${basePath}/Eletronic_Components.png`}
                           alt="Electronic Components"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +231,7 @@ export default function ModificationPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Automotive_Parts.png"
+                          src={`${basePath}/Automotive_Parts.png`}
                           alt="Automotive Parts"
                           fill
                           style={{ objectFit: 'contain' }}

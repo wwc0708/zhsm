@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function BlackPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function BlackPage() {
                 }}
               >
                 <Image
-                  src="/Black_Masterbatch.png"
+                  src={`${basePath}/Black_Masterbatch.png`}
                   alt="Black Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +147,7 @@ export default function BlackPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Plastic_Pipes.png"
+                          src={`${basePath}/Plastic_Pipes.png`}
                           alt="Plastic Pipes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +189,7 @@ export default function BlackPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Automotive_Parts.png"
+                          src={`${basePath}/Automotive_Parts.png`}
                           alt="Automotive Parts"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +231,7 @@ export default function BlackPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Electroinc Casings.png"
+                          src={`${basePath}/Electroinc Casings.png`}
                           alt="Electronic Casings"
                           fill
                           style={{ objectFit: 'contain' }}

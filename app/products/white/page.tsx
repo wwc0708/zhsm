@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function WhitePage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function WhitePage() {
                 }}
               >
                 <Image
-                  src="/White_Masterbatch.png"
+                  src={`${basePath}/White_Masterbatch.png`}
                   alt="White Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +147,7 @@ export default function WhitePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Food_Packaging_Films.png"
+                          src={`${basePath}/Food_Packaging_Films.png`}
                           alt="Food Packaging Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +189,7 @@ export default function WhitePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/White_Plastic_Parts.png"
+                          src={`${basePath}/White_Plastic_Parts.png`}
                           alt="White Plastic Parts"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +231,7 @@ export default function WhitePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Appliance_Casings.png"
+                          src={`${basePath}/Appliance_Casings.png`}
                           alt="Appliance Casings"
                           fill
                           style={{ objectFit: 'contain' }}

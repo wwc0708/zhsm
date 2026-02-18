@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function CastingPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function CastingPage() {
                 }}
               >
                 <Image
-                  src="/Cast_Film.png"
+                  src={`${basePath}/Cast_Film.png`}
                   alt="Cast Film"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +137,7 @@ export default function CastingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Engineering_Waterproof_Films.png"
+                          src={`${basePath}/Engineering_Waterproof_Films.png`}
                           alt="Engineering Waterproof Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +179,7 @@ export default function CastingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Hygiene_Products.png"
+                          src={`${basePath}/Hygiene_Products.png`}
                           alt="Hygiene Products"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +221,7 @@ export default function CastingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Food_Packaging_Films.png"
+                          src={`${basePath}/Food_Packaging_Films.png`}
                           alt="Food Packaging Films"
                           fill
                           style={{ objectFit: 'contain' }}

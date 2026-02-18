@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function FunctionPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function FunctionPage() {
                 }}
               >
                 <Image
-                  src="/Functional_Masterbatch.png"
+                  src={`${basePath}/Functional_Masterbatch.png`}
                   alt="Functional Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -153,7 +155,7 @@ export default function FunctionPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Garbage_Bags.png"
+                          src={`${basePath}/Garbage_Bags.png`}
                           alt="Garbage Bags"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -195,7 +197,7 @@ export default function FunctionPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Engineering_Waterproof_Films.png"
+                          src={`${basePath}/Engineering_Waterproof_Films.png`}
                           alt="Engineering Waterproof Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -237,7 +239,7 @@ export default function FunctionPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Eletronic_Packaging.png"
+                          src={`${basePath}/Eletronic_Packaging.png`}
                           alt="Electronic Packaging"
                           fill
                           style={{ objectFit: 'contain' }}

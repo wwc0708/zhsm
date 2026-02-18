@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function SheetPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function SheetPage() {
                 }}
               >
                 <Image
-                  src="/Sheets.png"
+                  src={`${basePath}/Sheets.png`}
                   alt="Sheets"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +137,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Thermoformed_Packaging_Boxes.png"
+                          src={`${basePath}/Thermoformed_Packaging_Boxes.png`}
                           alt="Thermoformed Packaging Boxes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +179,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Meal_Boxes.png"
+                          src={`${basePath}/Meal_Boxes.png`}
                           alt="Meal Boxes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +221,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Medicine_Bottle_Packaging.png"
+                          src={`${basePath}/Medicine_Bottle_Packaging.png`}
                           alt="Medicine Bottle Packaging"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -261,7 +263,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Cosmetic_Packaging.png"
+                          src={`${basePath}/Cosmetic_Packaging.png`}
                           alt="Cosmetic Packaging"
                           fill
                           style={{ objectFit: 'contain' }}

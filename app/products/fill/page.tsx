@@ -7,6 +7,8 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const basePath = '/zhsm';
+
 export default function FillPage() {
   const { t } = useLanguage();
 
@@ -58,7 +60,7 @@ export default function FillPage() {
                 }}
               >
                 <Image
-                  src="/Filler_Masterbatch.png"
+src={`${basePath}/Filler_Masterbatch.png`}
                   alt="Filler Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +147,7 @@ export default function FillPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Plastic_Pipes.png"
+                          src={`${basePath}/Plastic_Pipes.png`}
                           alt="Plastic Pipes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +189,7 @@ export default function FillPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Sheets.png"
+                          src={`${basePath}/Sheets.png`}
                           alt="Sheets"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +231,7 @@ export default function FillPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/Film_Products.png"
+                          src={`${basePath}/Film_Products.png`}
                           alt="Film Products"
                           fill
                           style={{ objectFit: 'contain' }}
