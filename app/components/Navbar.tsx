@@ -21,12 +21,23 @@ const styles = `
     display: none !important;
   }
   @media (min-width: 992px) {
-    .nav-link, .dropdown-toggle {
+    .nav-link,
+    .nav-dropdown-custom.dropdown-toggle,
+    .nav-item .dropdown-toggle {
       height: 48px !important;
       display: flex !important;
       align-items: center !important;
       padding: 0.75rem 1rem !important;
       box-sizing: border-box !important;
+      line-height: 1 !important;
+    }
+    .nav-dropdown-custom .dropdown-toggle {
+      height: 48px !important;
+      display: flex !important;
+      align-items: center !important;
+      padding: 0.75rem 1rem !important;
+      box-sizing: border-box !important;
+      line-height: 1 !important;
     }
   }
 `;
@@ -144,6 +155,8 @@ export default function Navbar() {
                 }
                 id="industry-dropdown"
                 drop="end"
+                menuRole="none"
+                className="nav-dropdown-custom"
                 style={{ padding: '0.75rem 1rem' }}
               >
                 <Link
@@ -279,6 +292,8 @@ export default function Navbar() {
                 }
                 id="products-dropdown"
                 drop="end"
+                menuRole="none"
+                className="nav-dropdown-custom"
                 style={{ padding: '0.75rem 1rem' }}
               >
                 <Link
@@ -431,6 +446,8 @@ export default function Navbar() {
                 }
                 id="language-dropdown"
                 drop="end"
+                menuRole="none"
+                className="nav-dropdown-custom"
                 style={{ padding: '0.75rem 1rem' }}
               >
                 <NavDropdown.Item
