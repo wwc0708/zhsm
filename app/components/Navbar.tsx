@@ -119,6 +119,7 @@ export default function Navbar() {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '0.25rem',
+                      lineHeight: '1.5',
                     }}
                   >
                     {t('nav.industry')}
@@ -253,6 +254,7 @@ export default function Navbar() {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '0.25rem',
+                      lineHeight: '1.5',
                     }}
                   >
                     {t('nav.products')}
@@ -403,6 +405,7 @@ export default function Navbar() {
                       display: 'flex',
                       alignItems: 'center',
                       gap: '0.25rem',
+                      lineHeight: '1.5',
                     }}
                   >
                     <i className="bi bi-globe"></i>
