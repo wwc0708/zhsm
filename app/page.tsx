@@ -3,8 +3,11 @@
 import React from 'react';
 import { useLanguage } from './contexts/LanguageContext';
 import Link from 'next/link';
+import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+
+const basePath = '/zhsm';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -157,10 +160,14 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <i
-                    className="bi bi-box-seam"
-                    style={{ fontSize: '3rem', color: '#ff3b30' }}
-                  ></i>
+                  <div style={{ width: '120px', height: '120px', position: 'relative', margin: '0 auto' }}>
+                    <Image
+                      src={`${basePath}/Industry.png`}
+                      alt="Industry"
+                      fill
+                      style={{ objectFit: 'contain' }}
+                    />
+                  </div>
                 </div>
                 <h3
                   className="text-center mb-3"
@@ -196,10 +203,14 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <i
-                    className="bi bi-palette"
-                    style={{ fontSize: '3rem', color: '#ff3b30' }}
-                  ></i>
+                  <div style={{ width: '120px', height: '120px', position: 'relative', margin: '0 auto' }}>
+                    <Image
+                      src={`${basePath}/Products.png`}
+                      alt="Products"
+                      fill
+                      style={{ objectFit: 'contain' }}
+                    />
+                  </div>
                 </div>
                 <h3
                   className="text-center mb-3"
@@ -235,10 +246,14 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <i
-                    className="bi bi-telephone"
-                    style={{ fontSize: '3rem', color: '#ff3b30' }}
-                  ></i>
+                  <div style={{ width: '120px', height: '120px', position: 'relative', margin: '0 auto' }}>
+                    <Image
+                      src={`${basePath}/Contact.png`}
+                      alt="Contact"
+                      fill
+                      style={{ objectFit: 'contain' }}
+                    />
+                  </div>
                 </div>
                 <h3
                   className="text-center mb-3"
