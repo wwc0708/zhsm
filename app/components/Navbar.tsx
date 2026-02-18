@@ -23,21 +23,19 @@ const styles = `
   @media (min-width: 992px) {
     .nav-link,
     .nav-dropdown-custom.dropdown-toggle,
-    .nav-item .dropdown-toggle {
-      height: 42px !important;
-      display: flex !important;
-      align-items: center !important;
-      padding: 0.5rem 1rem !important;
-      box-sizing: border-box !important;
-      line-height: 1 !important;
-    }
+    .nav-item .dropdown-toggle,
     .nav-dropdown-custom .dropdown-toggle {
-      height: 42px !important;
       display: flex !important;
       align-items: center !important;
       padding: 0.5rem 1rem !important;
       box-sizing: border-box !important;
-      line-height: 1 !important;
+      margin: 0 !important;
+    }
+    .nav-link > a,
+    .nav-dropdown-custom.dropdown-toggle > span {
+      display: flex !important;
+      align-items: center !important;
+      height: 100% !important;
     }
   }
 `;
@@ -122,7 +120,9 @@ export default function Navbar() {
                   fontWeight: isActive('/') ? '600' : '400',
                   padding: '0.5rem 1rem',
                   fontSize: '1rem',
-                  lineHeight: '1.5',
+                  lineHeight: '1',
+                  display: 'flex',
+                  alignItems: 'center',
                   transition: 'all 0.3s ease',
                 }}
               >
@@ -412,7 +412,9 @@ export default function Navbar() {
                   fontWeight: isActive('/contact') ? '600' : '400',
                   padding: '0.5rem 1rem',
                   fontSize: '1rem',
-                  lineHeight: '1.5',
+                  lineHeight: '1',
+                  display: 'flex',
+                  alignItems: 'center',
                   transition: 'all 0.3s ease',
                 }}
               >
