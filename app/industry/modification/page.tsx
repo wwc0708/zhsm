@@ -145,7 +145,7 @@ export default function ModificationPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Engineer_Plastic_Parts.png`}
                           alt="Engineer Plastic Parts"
@@ -187,7 +187,7 @@ export default function ModificationPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Eletronic_Components.png`}
                           alt="Electronic Components"
@@ -229,7 +229,7 @@ export default function ModificationPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Automotive_Parts.png`}
                           alt="Automotive Parts"

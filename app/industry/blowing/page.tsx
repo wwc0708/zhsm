@@ -135,7 +135,7 @@ export default function BlowingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Garbage_Bags.png`}
                           alt="Garbage Bags"
@@ -177,7 +177,7 @@ export default function BlowingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Garment_Bags.png`}
                           alt="Garment Bags"
@@ -219,7 +219,7 @@ export default function BlowingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Agricultural_Films.png`}
                           alt="Agricultural Films"
@@ -261,7 +261,7 @@ export default function BlowingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Food_Packaging_Films.png`}
                           alt="Food Packaging Films"

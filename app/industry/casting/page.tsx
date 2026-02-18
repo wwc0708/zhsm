@@ -135,7 +135,7 @@ export default function CastingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Engineering_Waterproof_Films.png`}
                           alt="Engineering Waterproof Films"
@@ -177,7 +177,7 @@ export default function CastingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Hygiene_Products.png`}
                           alt="Hygiene Products"
@@ -219,7 +219,7 @@ export default function CastingPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Food_Packaging_Films.png`}
                           alt="Food Packaging Films"

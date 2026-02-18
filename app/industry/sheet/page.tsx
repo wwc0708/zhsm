@@ -135,9 +135,7 @@ export default function SheetPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
-                        <Image
-                          src={`${basePath}/Thermoformed_Packaging_Boxes.png`}
+<div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                           alt="Thermoformed Packaging Boxes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +175,7 @@ export default function SheetPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Meal_Boxes.png`}
                           alt="Meal Boxes"
@@ -219,7 +217,7 @@ export default function SheetPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Medicine_Bottle_Packaging.png`}
                           alt="Medicine Bottle Packaging"
@@ -261,7 +259,7 @@ export default function SheetPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Cosmetic_Packaging.png`}
                           alt="Cosmetic Packaging"

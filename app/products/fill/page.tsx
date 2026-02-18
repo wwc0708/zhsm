@@ -145,7 +145,7 @@ src={`${basePath}/Filler_Masterbatch.png`}
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Plastic_Pipes.png`}
                           alt="Plastic Pipes"
@@ -187,7 +187,7 @@ src={`${basePath}/Filler_Masterbatch.png`}
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Sheets.png`}
                           alt="Sheets"
@@ -229,7 +229,7 @@ src={`${basePath}/Filler_Masterbatch.png`}
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Film_Products.png`}
                           alt="Film Products"

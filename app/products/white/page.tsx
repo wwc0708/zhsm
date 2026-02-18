@@ -145,7 +145,7 @@ export default function WhitePage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Food_Packaging_Films.png`}
                           alt="Food Packaging Films"
@@ -165,31 +165,30 @@ export default function WhitePage() {
                     </div>
                   </div>
                   <div className="col-12 col-md-4">
-                    <div
-                      style={{
-                        backgroundColor: '#f8f9fa',
-                        borderRadius: '16px',
-                        padding: '2rem',
-                        textAlign: 'center',
-                        transition: 'all 0.3s ease',
-                        height: '100%',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.backgroundColor = '#fff0f0';
-                        e.currentTarget.style.transform = 'translateY(-5px)';
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.backgroundColor = '#f8f9fa';
-                        e.currentTarget.style.transform = 'translateY(0)';
-                      }}
-                    >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
-                        <Image
-                          src={`${basePath}/White_Plastic_Parts.png`}
+                                        <div style={{
+                                            backgroundColor: '#f8f9fa',
+                                            borderRadius: '16px',
+                                            padding: '2rem',
+                                            textAlign: 'center',
+                                            transition: 'all 0.3s ease',
+                                            height: '100%',
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                          }}
+                                          onMouseEnter={(e) => {
+                                            e.currentTarget.style.backgroundColor = '#fff0f0';
+                                            e.currentTarget.style.transform = 'translateY(-5px)';
+                                          }}
+                                          onMouseLeave={(e) => {
+                                            e.currentTarget.style.backgroundColor = '#f8f9fa';
+                                            e.currentTarget.style.transform = 'translateY(0)';
+                                          }}
+                                        >
+                                          <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
+                                            <Image
+                                              src={`${basePath}/White_Plastic_Parts.png`}
                           alt="White Plastic Parts"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +228,7 @@ export default function WhitePage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-                      <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
                           src={`${basePath}/Appliance_Casings.png`}
                           alt="Appliance Casings"
