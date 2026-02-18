@@ -58,7 +58,7 @@ export default function ModificationPage() {
                 }}
               >
                 <Image
-                  src="/images/Modification_Pelletizing.png"
+                  src="/Modification_Pelletizing.png"
                   alt="Modification Pelletizing"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +145,7 @@ export default function ModificationPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Engineer_Plastic_Parts.png"
+                          src="/Engineer_Plastic_Parts.png"
                           alt="Engineer Plastic Parts"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +187,7 @@ export default function ModificationPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Eletronic_Components.png"
+                          src="/Eletronic_Components.png"
                           alt="Electronic Components"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +229,7 @@ export default function ModificationPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Automotive_Parts.png"
+                          src="/Automotive_Parts.png"
                           alt="Automotive Parts"
                           fill
                           style={{ objectFit: 'contain' }}

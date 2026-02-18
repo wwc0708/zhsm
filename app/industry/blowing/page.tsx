@@ -58,7 +58,7 @@ export default function BlowingPage() {
                 }}
               >
                 <Image
-                  src="/images/Blown_Film.png"
+                  src="/Blown_Film.png"
                   alt="Blown Film"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +135,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Garbage_Bags.png"
+                          src="/Garbage_Bags.png"
                           alt="Garbage Bags"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +177,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Garment_Bags.png"
+                          src="/Garment_Bags.png"
                           alt="Garment Bags"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +219,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Agricultural_Films.png"
+                          src="/Agricultural_Films.png"
                           alt="Agricultural Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -261,7 +261,7 @@ export default function BlowingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Food_Packaging_Films.png"
+                          src="/Food_Packaging_Films.png"
                           alt="Food Packaging Films"
                           fill
                           style={{ objectFit: 'contain' }}

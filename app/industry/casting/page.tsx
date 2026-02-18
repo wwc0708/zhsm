@@ -58,7 +58,7 @@ export default function CastingPage() {
                 }}
               >
                 <Image
-                  src="/images/Cast_Film.png"
+                  src="/Cast_Film.png"
                   alt="Cast Film"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +135,7 @@ export default function CastingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Engineering_Waterproof_Films.png"
+                          src="/Engineering_Waterproof_Films.png"
                           alt="Engineering Waterproof Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +177,7 @@ export default function CastingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Hygiene_Products.png"
+                          src="/Hygiene_Products.png"
                           alt="Hygiene Products"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +219,7 @@ export default function CastingPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Food_Packaging_Films.png"
+                          src="/Food_Packaging_Films.png"
                           alt="Food Packaging Films"
                           fill
                           style={{ objectFit: 'contain' }}

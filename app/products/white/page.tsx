@@ -58,7 +58,7 @@ export default function WhitePage() {
                 }}
               >
                 <Image
-                  src="/images/White_Masterbatch.png"
+                  src="/White_Masterbatch.png"
                   alt="White Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +145,7 @@ export default function WhitePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Food_Packaging_Films.png"
+                          src="/Food_Packaging_Films.png"
                           alt="Food Packaging Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +187,7 @@ export default function WhitePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/White_Plastic_Parts.png"
+                          src="/White_Plastic_Parts.png"
                           alt="White Plastic Parts"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +229,7 @@ export default function WhitePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Appliance_Casings.png"
+                          src="/Appliance_Casings.png"
                           alt="Appliance Casings"
                           fill
                           style={{ objectFit: 'contain' }}

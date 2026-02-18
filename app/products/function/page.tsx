@@ -58,7 +58,7 @@ export default function FunctionPage() {
                 }}
               >
                 <Image
-                  src="/images/Functional_Masterbatch.png"
+                  src="/Functional_Masterbatch.png"
                   alt="Functional Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -153,7 +153,7 @@ export default function FunctionPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Garbage_Bags.png"
+                          src="/Garbage_Bags.png"
                           alt="Garbage Bags"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -195,7 +195,7 @@ export default function FunctionPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Engineering_Waterproof_Films.png"
+                          src="/Engineering_Waterproof_Films.png"
                           alt="Engineering Waterproof Films"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -237,7 +237,7 @@ export default function FunctionPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Eletronic_Packaging.png"
+                          src="/Eletronic_Packaging.png"
                           alt="Electronic Packaging"
                           fill
                           style={{ objectFit: 'contain' }}

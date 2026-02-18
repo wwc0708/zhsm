@@ -58,7 +58,7 @@ export default function BlackPage() {
                 }}
               >
                 <Image
-                  src="/images/Black_Masterbatch.png"
+                  src="/Black_Masterbatch.png"
                   alt="Black Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +145,7 @@ export default function BlackPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Plastic_Pipes.png"
+                          src="/Plastic_Pipes.png"
                           alt="Plastic Pipes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +187,7 @@ export default function BlackPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Automotive_Parts.png"
+                          src="/Automotive_Parts.png"
                           alt="Automotive Parts"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +229,7 @@ export default function BlackPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Electroinc Casings.png"
+                          src="/Electroinc Casings.png"
                           alt="Electronic Casings"
                           fill
                           style={{ objectFit: 'contain' }}

@@ -58,7 +58,7 @@ export default function ColorPage() {
                 }}
               >
                 <Image
-                  src="/images/Color_Masterbatch.png"
+                  src="/Color_Masterbatch.png"
                   alt="Color Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +145,7 @@ export default function ColorPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Toys.png"
+                          src="/Toys.png"
                           alt="Toys"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +187,7 @@ export default function ColorPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Daily_Products.png"
+                          src="/Daily_Products.png"
                           alt="Daily Products"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +229,7 @@ export default function ColorPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Color_Appliance_Casings.png"
+                          src="/Color_Appliance_Casings.png"
                           alt="Color Appliance Casings"
                           fill
                           style={{ objectFit: 'contain' }}

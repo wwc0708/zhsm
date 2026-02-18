@@ -58,7 +58,7 @@ export default function FillPage() {
                 }}
               >
                 <Image
-                  src="/images/Filler_Masterbatch.png"
+                  src="/Filler_Masterbatch.png"
                   alt="Filler Masterbatch"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -145,7 +145,7 @@ export default function FillPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Plastic_Pipes.png"
+                          src="/Plastic_Pipes.png"
                           alt="Plastic Pipes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -187,7 +187,7 @@ export default function FillPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Sheets.png"
+                          src="/Sheets.png"
                           alt="Sheets"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -229,7 +229,7 @@ export default function FillPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Film_Products.png"
+                          src="/Film_Products.png"
                           alt="Film Products"
                           fill
                           style={{ objectFit: 'contain' }}

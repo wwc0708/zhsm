@@ -58,7 +58,7 @@ export default function PipePage() {
                 }}
               >
                 <Image
-                  src="/images/Plastic_Pipes.png"
+                  src="/Plastic_Pipes.png"
                   alt="Plastic Pipes"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +135,7 @@ export default function PipePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Water_Supply_Drainage_Systems.png"
+                          src="/Water_Supply_Drainage_Systems.png"
                           alt="Water Supply Drainage Systems"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +177,7 @@ export default function PipePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Natural_Gas_pipelines.png"
+                          src="/Natural_Gas_pipelines.png"
                           alt="Natural Gas Pipelines"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +219,7 @@ export default function PipePage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Industrial_Pipes.png"
+                          src="/Industrial_Pipes.png"
                           alt="Industrial Pipes"
                           fill
                           style={{ objectFit: 'contain' }}

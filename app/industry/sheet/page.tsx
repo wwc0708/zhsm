@@ -58,7 +58,7 @@ export default function SheetPage() {
                 }}
               >
                 <Image
-                  src="/images/Sheets.png"
+                  src="/Sheets.png"
                   alt="Sheets"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -135,7 +135,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Thermoformed_Packaging_Boxes.png"
+                          src="/Thermoformed_Packaging_Boxes.png"
                           alt="Thermoformed Packaging Boxes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -177,7 +177,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Meal_Boxes.png"
+                          src="/Meal_Boxes.png"
                           alt="Meal Boxes"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -219,7 +219,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Medicine_Bottle_Packaging.png"
+                          src="/Medicine_Bottle_Packaging.png"
                           alt="Medicine Bottle Packaging"
                           fill
                           style={{ objectFit: 'contain' }}
@@ -261,7 +261,7 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '120px', height: '120px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src="/images/Cosmetic_Packaging.png"
+                          src="/Cosmetic_Packaging.png"
                           alt="Cosmetic Packaging"
                           fill
                           style={{ objectFit: 'contain' }}
