@@ -410,7 +410,7 @@ export default function Navbar() {
                       style={{
                         fontSize: '0.7rem',
                         marginLeft: '0.25rem',
-                        color: '#ff3b30',
+                        color: '#1a1a1a',
                       }}
                     ></i>
                   </span>
