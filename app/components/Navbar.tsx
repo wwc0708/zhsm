@@ -15,10 +15,15 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-// Hide Bootstrap's default dropdown toggle arrow
+// Hide Bootstrap's default dropdown toggle arrow and ensure consistent height
 const styles = `
   .dropdown-toggle::after {
     display: none !important;
+  }
+  .nav-link, .dropdown-toggle {
+    display: flex !important;
+    align-items: center !important;
+    height: 48px !important;
   }
 `;
 
