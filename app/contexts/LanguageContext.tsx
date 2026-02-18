@@ -48,6 +48,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'contact.email': '邮箱：2523880190@qq.com',
         'contact.address': '地址：广东省东莞市桥头镇石水口银湖二路17号',
 
+        // Footer
+        'footer.description': '专业色母粒制造商，致力于提供高品质的色母粒产品与解决方案',
+        'footer.address': '广东省东莞市桥头镇石水口银湖二路17号',
+        'footer.quickLinks': '快速链接',
+
         // General
         'home.welcome': '专业色母粒制造商',
         'home.subtitle': '致力于提供高品质的色母粒产品与解决方案',
@@ -175,6 +180,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'contact.email': 'Email: 2523880190@qq.com',
         'contact.address': 'Address: No. 17 Yinhu 2nd Road, Shuishuikou, Qiaotou Town, Dongguan City, Guangdong Province',
 
+        // Footer
+        'footer.description': 'Professional masterbatch manufacturer, dedicated to providing high-quality masterbatch products and solutions',
+        'footer.address': 'No. 17 Yinhu 2nd Road, Shuishuikou, Qiaotou Town, Dongguan City, Guangdong Province',
+        'footer.quickLinks': 'Quick Links',
+
         // General
         'home.welcome': 'Professional Masterbatch Manufacturer',
         'home.subtitle': 'Dedicated to providing high-quality masterbatch products and solutions',
@@ -301,6 +311,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'contact.fax': 'Fax: 0769-8252 1318',
         'contact.email': 'Email: 2523880190@qq.com',
         'contact.address': 'Địa chỉ: Số 17 đường Yinhu 2, Shuishuikou, thị trấn Qiaotou, thành phố Dongguan, tỉnh Quảng Đông',
+
+        // Footer
+        'footer.description': 'Nhà sản xuất masterbatch chuyên nghiệp, cam kết cung cấp sản phẩm và giải pháp masterbatch chất lượng cao',
+        'footer.address': 'Số 17 đường Yinhu 2, Shuishuikou, thị trấn Qiaotou, thành phố Dongguan, tỉnh Quảng Đông',
+        'footer.quickLinks': 'Liên kết nhanh',
 
         // General
         'home.welcome': 'Nhà sản xuất Masterbatch chuyên nghiệp',
