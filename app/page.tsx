@@ -3,7 +3,6 @@
 import React from 'react';
 import { useLanguage } from './contexts/LanguageContext';
 import Link from 'next/link';
-import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -160,14 +159,11 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <div style={{ width: '180px', height: '180px', position: 'relative', margin: '0 auto' }}>
-                    <Image
-                      src={`${basePath}/Industry.png`}
-                      alt="Industry"
-                      fill
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </div>
+                  <img
+                    src={`${basePath}/Industry.png`}
+                    alt="Industry"
+                    style={{ width: '180px', height: '180px', objectFit: 'contain' }}
+                  />
                 </div>
                 <h3
                   className="text-center mb-3"
@@ -203,14 +199,11 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <div style={{ width: '180px', height: '180px', position: 'relative', margin: '0 auto' }}>
-                    <Image
-                      src={`${basePath}/Products.png`}
-                      alt="Products"
-                      fill
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </div>
+                  <img
+                    src={`${basePath}/Products.png`}
+                    alt="Products"
+                    style={{ width: '180px', height: '180px', objectFit: 'contain' }}
+                  />
                 </div>
                 <h3
                   className="text-center mb-3"
@@ -246,14 +239,11 @@ export default function Home() {
                 }}
               >
                 <div className="text-center mb-3">
-                  <div style={{ width: '180px', height: '180px', position: 'relative', margin: '0 auto' }}>
-                    <Image
-                      src={`${basePath}/Contact.png`}
-                      alt="Contact"
-                      fill
-                      style={{ objectFit: 'contain' }}
-                    />
-                  </div>
+                  <img
+                    src={`${basePath}/Contact.png`}
+                    alt="Contact"
+                    style={{ width: '180px', height: '180px', objectFit: 'contain' }}
+                  />
                 </div>
                 <h3
                   className="text-center mb-3"
