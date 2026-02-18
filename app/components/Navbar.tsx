@@ -106,9 +106,20 @@ export default function Navbar() {
                       color: pathname?.startsWith('/industry') ? '#ff3b30' : '#1a1a1a',
                       fontWeight: pathname?.startsWith('/industry') ? '600' : '400',
                       fontSize: '1rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.25rem',
                     }}
                   >
                     {t('nav.industry')}
+                    <i
+                      className="bi bi-caret-down-fill"
+                      style={{
+                        fontSize: '0.7rem',
+                        marginLeft: '0.25rem',
+                        color: pathname?.startsWith('/industry') ? '#ff3b30' : '#1a1a1a',
+                      }}
+                    ></i>
                   </span>
                 }
                 id="industry-dropdown"
@@ -229,9 +240,20 @@ export default function Navbar() {
                       color: pathname?.startsWith('/products') ? '#ff3b30' : '#1a1a1a',
                       fontWeight: pathname?.startsWith('/products') ? '600' : '400',
                       fontSize: '1rem',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.25rem',
                     }}
                   >
                     {t('nav.products')}
+                    <i
+                      className="bi bi-caret-down-fill"
+                      style={{
+                        fontSize: '0.7rem',
+                        marginLeft: '0.25rem',
+                        color: pathname?.startsWith('/products') ? '#ff3b30' : '#1a1a1a',
+                      }}
+                    ></i>
                   </span>
                 }
                 id="products-dropdown"
@@ -369,11 +391,19 @@ export default function Navbar() {
                       fontSize: '1rem',
                       display: 'flex',
                       alignItems: 'center',
-                      gap: '0.5rem',
+                      gap: '0.25rem',
                     }}
                   >
                     <i className="bi bi-globe"></i>
                     {language === 'zh' ? '中文' : language === 'en' ? 'EN' : 'VN'}
+                    <i
+                      className="bi bi-caret-down-fill"
+                      style={{
+                        fontSize: '0.7rem',
+                        marginLeft: '0.25rem',
+                        color: '#ff3b30',
+                      }}
+                    ></i>
                   </span>
                 }
                 id="language-dropdown"
