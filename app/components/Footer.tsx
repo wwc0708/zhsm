@@ -26,19 +26,10 @@ export default function Footer() {
               <img
                 src={`${basePath}/logo.png`}
                 alt="Zhihe Logo"
-                width={40}
+                width={120}
                 height={40}
-                style={{ objectFit: 'contain', marginRight: '0.5rem' }}
+                style={{ objectFit: 'contain' }}
               />
-              <span
-                style={{
-                  fontSize: '1.25rem',
-                  fontWeight: '600',
-                  color: '#ffffff',
-                }}
-              >
-                Zhihe
-              </span>
             </div>
             <p style={{ color: '#999', lineHeight: '1.5', marginBottom: '0', fontSize: '0.875rem' }}>
               {t('footer.description')}

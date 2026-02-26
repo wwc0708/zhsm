@@ -64,25 +64,15 @@ export default function Navbar() {
       }}
     >
       <Container fluid="lg">
-        <Link href="/" className="navbar-brand d-flex align-items-center" style={{ textDecoration: 'none' }}>
+        <Link href="/zhsm/" className="navbar-brand d-flex align-items-center" style={{ textDecoration: 'none' }}>
           <Image
             src="/zhsm/logo.png"
             alt="Zhihe Logo"
-            width={50}
+            width={150}
             height={50}
             className="me-2"
             style={{ objectFit: 'contain' }}
           />
-          <span
-            style={{
-              fontSize: '1.5rem',
-              fontWeight: '600',
-              color: '#1a1a1a',
-              letterSpacing: '-0.5px',
-            }}
-          >
-            Zhihe
-          </span>
         </Link>
 
         <BootstrapNavbar.Toggle
