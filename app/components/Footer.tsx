@@ -98,7 +98,7 @@ export default function Footer() {
             </h6>
             <div className="d-flex flex-column gap-1">
               <a
-                href={`${basePath}/industry/modification`}
+                href="/industry/modification"
                 style={{
                   color: '#999',
                   textDecoration: 'none',
@@ -115,7 +115,7 @@ export default function Footer() {
                 {t('nav.industry')}
               </a>
               <a
-                href={`${basePath}/products/black`}
+                href="/products/black"
                 style={{
                   color: '#999',
                   textDecoration: 'none',
@@ -132,7 +132,7 @@ export default function Footer() {
                 {t('nav.products')}
               </a>
               <a
-                href={`${basePath}/contact`}
+                href="/contact"
                 style={{
                   color: '#999',
                   textDecoration: 'none',
