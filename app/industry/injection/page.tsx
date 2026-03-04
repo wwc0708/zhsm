@@ -155,7 +155,7 @@ export default function InjectionPage() {
                     >
                       <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src={`${basePath}/Eletronic Casings.png`}
+                          src={`${basePath}/Electroinc Casings.png`}
                           alt="Electronic Casings"
                           fill
                           style={{ objectFit: 'contain' }}
