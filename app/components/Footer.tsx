@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -97,7 +98,7 @@ export default function Footer() {
               {t('footer.quickLinks')}
             </h6>
             <div className="d-flex flex-column gap-1">
-              <a
+              <Link
                 href="/industry"
                 style={{
                   color: '#999',
@@ -113,8 +114,8 @@ export default function Footer() {
                 }}
               >
                 {t('nav.industry')}
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/products"
                 style={{
                   color: '#999',
@@ -130,8 +131,8 @@ export default function Footer() {
                 }}
               >
                 {t('nav.products')}
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/contact"
                 style={{
                   color: '#999',
@@ -147,7 +148,7 @@ export default function Footer() {
                 }}
               >
                 {t('nav.contact')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
