@@ -7,7 +7,7 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const basePath = '/zhsm';
+const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
 export default function PipePage() {
   const { t } = useLanguage();
@@ -84,7 +84,7 @@ export default function PipePage() {
                   {t('industry.pipe.intro')}
                 </p>
                 <p
-                  className="mb-0"
+                  className="mb-4"
                   style={{
                     color: '#666',
                     lineHeight: '1.8',
@@ -93,6 +93,17 @@ export default function PipePage() {
                 >
                   {t('industry.pipe.materials')}
                 </p>
+                <div className="mt-4 p-4 rounded" style={{ backgroundColor: '#fff0f0', borderLeft: '4px solid #ff3b30' }}>
+                  <h5 style={{ fontWeight: '600', color: '#1a1a1a', marginBottom: '1rem' }}>
+                    推荐产品
+                  </h5>
+                  <div style={{ color: '#666', lineHeight: '1.8', fontSize: '1.1rem', marginBottom: '0' }}>
+                    <p style={{ marginBottom: '1rem' }}><strong>主要推荐：黑色母</strong> - 用于PE80/PE100级HDPE管材，高浓度炭黑防紫外线性能优异，良好的耐候性延长管材使用寿命，符合管材行业标准</p>
+                    <p style={{ marginBottom: '1rem' }}><strong>次要推荐：蓝色母</strong> - 用于饮用水管、给排水系统，符合饮用水卫生标准</p>
+                    <p style={{ marginBottom: '1rem' }}><strong>次要推荐：橘色母</strong> - 用于天然气管道、工业管道标识，警示性强</p>
+                    <p style={{ marginBottom: '0' }}><strong>技术要求</strong>：高耐候性户外长期使用不褪色，优异的防紫外线性能，不影响管材的物理性能，符合相关行业标准</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

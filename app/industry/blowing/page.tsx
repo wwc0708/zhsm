@@ -7,7 +7,7 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const basePath = '/zhsm';
+const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
 export default function BlowingPage() {
   const { t } = useLanguage();
@@ -84,7 +84,7 @@ export default function BlowingPage() {
                   {t('industry.blowing.intro')}
                 </p>
                 <p
-                  className="mb-0"
+                  className="mb-4"
                   style={{
                     color: '#666',
                     lineHeight: '1.8',
@@ -93,6 +93,16 @@ export default function BlowingPage() {
                 >
                   {t('industry.blowing.materials')}
                 </p>
+                <div className="mt-4 p-4 rounded" style={{ backgroundColor: '#fff0f0', borderLeft: '4px solid #ff3b30' }}>
+                  <h5 style={{ fontWeight: '600', color: '#1a1a1a', marginBottom: '1rem' }}>
+                    应用领域及推荐产品
+                  </h5>
+                  <div style={{ color: '#666', lineHeight: '1.8', fontSize: '1.1rem', marginBottom: '0' }}>
+                    <p style={{ marginBottom: '1rem' }}><strong>快递袋</strong>：主要推荐黑白色母（黑色母用于快递袋主体，白色母用于外层标识区域），其次各种彩色定制</p>
+                    <p style={{ marginBottom: '1rem' }}><strong>背心袋/垃圾袋</strong>：主要推荐黑色、红色、蓝色、绿色、黄色、灰色，高浓度、易分散、薄膜强度高</p>
+                    <p style={{ marginBottom: '0' }}><strong>土工防渗膜</strong>：主要推荐黑色母，高浓度炭黑确保卓越的防紫外线性能，良好的耐候性，优异的阻隔性能</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

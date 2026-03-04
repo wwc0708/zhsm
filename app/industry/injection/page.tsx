@@ -9,7 +9,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
-export default function SheetPage() {
+export default function InjectionPage() {
   const { t } = useLanguage();
 
   return (
@@ -33,7 +33,7 @@ export default function SheetPage() {
               marginBottom: '1rem',
             }}
           >
-            {t('industry.sheet')}
+            {t('industry.injection')}
           </h1>
           <div
             style={{
@@ -60,8 +60,8 @@ export default function SheetPage() {
                 }}
               >
                 <Image
-                  src={`${basePath}/Sheets.png`}
-                  alt="Sheets"
+                  src={`${basePath}/Automotive_Parts.png`}
+                  alt="Injection Molding"
                   fill
                   style={{ objectFit: 'cover' }}
                 />
@@ -81,7 +81,7 @@ export default function SheetPage() {
                     fontSize: '1.1rem',
                   }}
                 >
-                  {t('industry.sheet.intro')}
+                  {t('industry.injection.intro')}
                 </p>
                 <p
                   className="mb-4"
@@ -91,17 +91,24 @@ export default function SheetPage() {
                     fontSize: '1.1rem',
                   }}
                 >
-                  {t('industry.sheet.materials')}
+                  {t('industry.injection.materials')}
+                </p>
+                <p
+                  className="mb-0"
+                  style={{
+                    color: '#666',
+                    lineHeight: '1.8',
+                    fontSize: '1.1rem',
+                  }}
+                >
+                  {t('industry.injection.applications')}
                 </p>
                 <div className="mt-4 p-4 rounded" style={{ backgroundColor: '#fff0f0', borderLeft: '4px solid #ff3b30' }}>
                   <h5 style={{ fontWeight: '600', color: '#1a1a1a', marginBottom: '1rem' }}>
                     推荐产品
                   </h5>
                   <div style={{ color: '#666', lineHeight: '1.8', fontSize: '1.1rem', marginBottom: '0' }}>
-                    <p style={{ marginBottom: '1rem' }}><strong>主要推荐：黑色母</strong> - 用于工程板材、吸塑片材，高黑度深色效果，良好的分散性避免色斑</p>
-                    <p style={{ marginBottom: '1rem' }}><strong>次要推荐：白色母</strong> - 用于吸塑包装、餐盒、药瓶，高遮盖力，食品级可选</p>
-                    <p style={{ marginBottom: '1rem' }}><strong>次要推荐：彩色母</strong> - 用于装饰性板材、玩具、家电面板，色泽鲜艳，色彩丰富</p>
-                    <p style={{ marginBottom: '0' }}><strong>技术要求</strong>：高遮盖力（白色母），良好的耐热性（片材挤出温度高），优异的分散性</p>
+                    {t('industry.injection.products')}
                   </div>
                 </div>
               </div>
@@ -146,10 +153,10 @@ export default function SheetPage() {
                         e.currentTarget.style.transform = 'translateY(0)';
                       }}
                     >
-<div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
+                      <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src={`${basePath}/Thermoformed_Packaging_Boxes.png`}
-                          alt="Thermoformed Packaging Boxes"
+                          src={`${basePath}/Eletronic Casings.png`}
+                          alt="Electronic Casings"
                           fill
                           style={{ objectFit: 'contain' }}
                         />
@@ -161,7 +168,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        {t('case.thermoformed.box')}
+                        {t('industry.injection.case.electronic')}
                       </p>
                     </div>
                   </div>
@@ -190,8 +197,8 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src={`${basePath}/Meal_Boxes.png`}
-                          alt="Meal Boxes"
+                          src={`${basePath}/Appliance_Casings.png`}
+                          alt="Appliance Casings"
                           fill
                           style={{ objectFit: 'contain' }}
                         />
@@ -203,7 +210,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        {t('case.meal.box')}
+                        {t('industry.injection.case.appliance')}
                       </p>
                     </div>
                   </div>
@@ -232,8 +239,8 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src={`${basePath}/Medicine_Bottle_Packaging.png`}
-                          alt="Medicine Bottle Packaging"
+                          src={`${basePath}/Toys.png`}
+                          alt="Toys"
                           fill
                           style={{ objectFit: 'contain' }}
                         />
@@ -245,7 +252,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        {t('case.medicine.packaging')}
+                        {t('industry.injection.case.toys')}
                       </p>
                     </div>
                   </div>
@@ -274,8 +281,8 @@ export default function SheetPage() {
                     >
                       <div style={{ width: '180px', height: '180px', position: 'relative', marginBottom: '1rem' }}>
                         <Image
-                          src={`${basePath}/Cosmetic_Packaging.png`}
-                          alt="Cosmetic Packaging"
+                          src={`${basePath}/Daily_Products.png`}
+                          alt="Daily Products"
                           fill
                           style={{ objectFit: 'contain' }}
                         />
@@ -287,7 +294,7 @@ export default function SheetPage() {
                           marginBottom: '0',
                         }}
                       >
-                        {t('case.cosmetic.packaging')}
+                        {t('industry.injection.case.daily')}
                       </p>
                     </div>
                   </div>

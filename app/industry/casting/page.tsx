@@ -7,7 +7,7 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const basePath = '/zhsm';
+const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
 export default function CastingPage() {
   const { t } = useLanguage();
@@ -84,7 +84,7 @@ export default function CastingPage() {
                   {t('industry.casting.intro')}
                 </p>
                 <p
-                  className="mb-0"
+                  className="mb-4"
                   style={{
                     color: '#666',
                     lineHeight: '1.8',
@@ -93,6 +93,18 @@ export default function CastingPage() {
                 >
                   {t('industry.casting.materials')}
                 </p>
+                <div className="mt-4 p-4 rounded" style={{ backgroundColor: '#fff0f0', borderLeft: '4px solid #ff3b30' }}>
+                  <h5 style={{ fontWeight: '600', color: '#1a1a1a', marginBottom: '1rem' }}>
+                    应用产品及推荐
+                  </h5>
+                  <div style={{ color: '#666', lineHeight: '1.8', fontSize: '1.1rem', marginBottom: '0' }}>
+                    <p style={{ marginBottom: '1rem' }}><strong>应用产品</strong>：缠绕膜、CPE拉链袋、食品包装膜、卫生用品包装</p>
+                    <p style={{ marginBottom: '1rem' }}><strong>黑色母</strong>：用于工业级缠绕膜、保护膜，高分散性避免晶点，良好的透明度控制</p>
+                    <p style={{ marginBottom: '1rem' }}><strong>彩色母</strong>：用于包装薄膜，色泽鲜艳提升产品档次，良好的透明度或半透明度控制</p>
+                    <p style={{ marginBottom: '1rem' }}><strong>白色母</strong>：用于食品级薄膜，食品级认证，高遮盖力，均匀性好</p>
+                    <p style={{ marginBottom: '0' }}><strong>技术要求</strong>：极高的分散性避免薄膜晶点和鱼眼，良好的透明度控制，优异的热稳定性</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

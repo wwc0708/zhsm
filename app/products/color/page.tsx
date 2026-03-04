@@ -7,7 +7,7 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const basePath = '/zhsm';
+const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
 export default function ColorPage() {
   const { t } = useLanguage();

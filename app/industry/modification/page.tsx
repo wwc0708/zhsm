@@ -7,7 +7,7 @@ import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const basePath = '/zhsm';
+const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
 export default function ModificationPage() {
   const { t } = useLanguage();
@@ -94,7 +94,7 @@ export default function ModificationPage() {
                   {t('industry.modification.materials')}
                 </p>
                 <p
-                  className="mb-0"
+                  className="mb-4"
                   style={{
                     color: '#666',
                     lineHeight: '1.8',
@@ -103,6 +103,15 @@ export default function ModificationPage() {
                 >
                   {t('industry.modification.applications')}
                 </p>
+                <div className="mt-4 p-4 rounded" style={{ backgroundColor: '#fff0f0', borderLeft: '4px solid #ff3b30' }}>
+                  <h5 style={{ fontWeight: '600', color: '#1a1a1a', marginBottom: '1rem' }}>
+                    推荐产品
+                  </h5>
+                  <ul style={{ color: '#666', lineHeight: '1.8', fontSize: '1.1rem', marginBottom: '0', paddingLeft: '1.5rem' }}>
+                    <li style={{ marginBottom: '0.5rem' }}><strong>专用黑色母</strong>：适用于工程塑料改性，具有高黑度、高分散性、耐热性强的特点</li>
+                    <li style={{ marginBottom: '0' }}><strong>黑色砂</strong>：适用于对黑度要求极高的改性材料，提供卓越的遮盖力</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

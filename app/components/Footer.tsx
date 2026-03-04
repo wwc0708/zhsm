@@ -5,7 +5,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const basePath = '/zhsm';
+const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -98,7 +98,7 @@ export default function Footer() {
             </h6>
             <div className="d-flex flex-column gap-1">
               <a
-                href="/industry/modification"
+                href="/industry"
                 style={{
                   color: '#999',
                   textDecoration: 'none',
@@ -115,7 +115,7 @@ export default function Footer() {
                 {t('nav.industry')}
               </a>
               <a
-                href="/products/black"
+                href="/products"
                 style={{
                   color: '#999',
                   textDecoration: 'none',

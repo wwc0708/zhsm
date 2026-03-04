@@ -28,9 +28,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'industry.title': '行业应用',
         'industry.modification': '改性抽粒',
         'industry.blowing': '吹膜',
-        'industry.sheet': '片材吸塑',
-        'industry.casting': '流延工艺',
-        'industry.pipe': '管材HDPE',
+        'industry.sheet': '片材板材挤出',
+        'industry.casting': '流延膜',
+        'industry.pipe': '管材挤出',
+        'industry.injection': '注塑',
 
         // Products
         'products.title': '色母产品',
@@ -119,6 +120,16 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'industry.pipe.materials': '主要材料：HDPE混配料，使用PE80或PE100等级的管材专用料。',
         'industry.pipe.cases': '产品案例：给排水系统、天然气输送管道、工业管道。',
 
+        // Industry Details - 注塑
+        'industry.injection.intro': '注塑工艺是将熔融的塑料在高压下注入模具型腔，经冷却固化后获得塑料制品的成型方法。注塑工艺生产效率高，可生产形状复杂、尺寸精确的塑料制品。',
+        'industry.injection.materials': '主要材料：PE、PP、ABS、PC、PBT、PA、PMMA等热塑性塑料。',
+        'industry.injection.applications': '应用特点：生产效率高、成型周期短、产品尺寸精确、可自动化生产。',
+        'industry.injection.products': '推荐产品：主要推荐黑色母（通用性强，成本较低，高黑度着色效果好），次要推荐白色母（用于医疗设备、食品容器），次要推荐彩色母（用于玩具、家电、日用品）。',
+        'industry.injection.case.electronic': '电子电器外壳',
+        'industry.injection.case.appliance': '家电外壳',
+        'industry.injection.case.toys': '玩具',
+        'industry.injection.case.daily': '日用品',
+
         // Products Details - 黑色母
         'products.black.intro': '黑色母粒是以炭黑为主要颜料，与载体树脂混合制成的浓缩着色剂。',
         'products.black.materials': '载体：PE、PP、ABS、PC、PBT、PA等。',
@@ -160,9 +171,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'industry.title': 'Industry Applications',
         'industry.modification': 'Modification',
         'industry.blowing': 'Blown Film',
-        'industry.sheet': 'Sheet & Thermoforming',
+        'industry.sheet': 'Sheet & Extrusion',
         'industry.casting': 'Cast Film',
-        'industry.pipe': 'HDPE Pipe',
+        'industry.pipe': 'Pipe Extrusion',
+        'industry.injection': 'Injection Molding',
 
         // Products
         'products.title': 'Masterbatch Products',
@@ -251,6 +263,16 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'industry.pipe.materials': 'Main materials: HDPE compound, using PE80 or PE100 grade pipe specialty materials.',
         'industry.pipe.cases': 'Product cases: Water supply and drainage systems, natural gas pipelines, industrial pipes.',
 
+        // Industry Details - Injection Molding
+        'industry.injection.intro': 'Injection molding is a process where molten plastic is injected under high pressure into a mold cavity, cooled and solidified to produce plastic products. Injection molding has high production efficiency and can produce complex-shaped, dimensionally accurate plastic products.',
+        'industry.injection.materials': 'Main materials: PE, PP, ABS, PC, PBT, PA, PMMA and other thermoplastics.',
+        'industry.injection.applications': 'Application features: High production efficiency, short molding cycle, precise product dimensions, automated production capability.',
+        'industry.injection.products': 'Recommended products: Mainly recommend black masterbatch (versatile, low cost, high blackness and good coloring effect), secondarily recommend white masterbatch (for medical equipment, food containers), secondarily recommend color masterbatch (for toys, appliances, daily products).',
+        'industry.injection.case.electronic': 'Electronic Casings',
+        'industry.injection.case.appliance': 'Appliance Casings',
+        'industry.injection.case.toys': 'Toys',
+        'industry.injection.case.daily': 'Daily Products',
+
         // Products Details - Black Masterbatch
         'products.black.intro': 'Black masterbatch is a concentrated colorant made by mixing carbon black as the main pigment with carrier resin.',
         'products.black.materials': 'Carriers: PE, PP, ABS, PC, PBT, PA, etc.',
@@ -292,9 +314,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'industry.title': 'Ứng dụng ngành công nghiệp',
         'industry.modification': 'Phối hợp cải biến',
         'industry.blowing': 'Kỹ thuật thổi phim',
-        'industry.sheet': 'Tấm & Nhuận',
-        'industry.casting': 'Kỹ thuật đúc',
-        'industry.pipe': 'Ống HDPE',
+        'industry.sheet': 'Tấm & Đùn',
+        'industry.casting': 'Phim đúc',
+        'industry.pipe': 'Đùn ống',
+        'industry.injection': 'Ép đúc',
 
         // Products
         'products.title': 'Sản phẩm Masterbatch',
@@ -382,6 +405,16 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         'industry.pipe.intro': 'Ống HDPE (Polyetylen mật độ cao) là loại ống nhựa có độ bền cao, chống ăn mòn và độ linh hoạt tốt.',
         'industry.pipe.materials': 'Vật liệu chính: Hỗn hợp HDPE, sử dụng vật liệu chuyên dụng ống cấp PE80 hoặc PE100.',
         'industry.pipe.cases': 'Ví dụ sản phẩm: Hệ thống cấp thoát nước, đường ống khí đốt tự nhiên, ống công nghiệp.',
+
+        // Industry Details - Injection Molding
+        'industry.injection.intro': 'Ép đúc là quá trình nhựa nóng chảy được tiêm dưới áp suất cao vào khoang khuôn, làm nguội và đông đặc để tạo ra sản phẩm nhựa. Ép đúc có hiệu quả sản xuất cao và có thể tạo ra sản phẩm nhựa có hình dạng phức tạp, kích thước chính xác.',
+        'industry.injection.materials': 'Vật liệu chính: PE, PP, ABS, PC, PBT, PA, PMMA và các nhựa nhiệt dẻo khác.',
+        'industry.injection.applications': 'Đặc điểm ứng dụng: Hiệu quả sản xuất cao, chu kỳ tạo hình ngắn, kích thước sản phẩm chính xác, khả năng tự động hóa sản xuất.',
+        'industry.injection.products': 'Sản phẩm khuyến nghị: Chủ yếu khuyên dùng Masterbatch đen (đa năng, chi phí thấp, độ đen cao và hiệu quả màu tốt), thứ hai khuyên dùng Masterbatch trắng (cho thiết bị y tế, hộp thực phẩm), thứ hai khuyên dùng Masterbatch màu (cho đồ chơi, thiết bị gia dụng, sản phẩm hàng ngày).',
+        'industry.injection.case.electronic': 'Vỏ thiết bị điện tử',
+        'industry.injection.case.appliance': 'Vỏ thiết bị gia dụng',
+        'industry.injection.case.toys': 'Đồ chơi',
+        'industry.injection.case.daily': 'Sản phẩm hàng ngày',
 
         // Products Details - Black Masterbatch
         'products.black.intro': 'Masterbatch đen là chất màu cô đặc được tạo ra bằng cách trộn carbon đen làm chất màu chính với nhựa mang.',

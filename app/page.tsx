@@ -6,7 +6,7 @@ import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const basePath = '/zhsm';
+const basePath = process.env.NODE_ENV === 'development' ? '' : '/zhsm';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -79,7 +79,7 @@ export default function Home() {
             </p>
             <div className="d-flex flex-column flex-sm-row gap-3 justify-content-center">
               <Link
-                href="/industry/modification"
+                href="/industry"
                 className="btn btn-lg"
                 style={{
                   backgroundColor: '#ff3b30',
@@ -105,7 +105,7 @@ export default function Home() {
                 {t('nav.industry')}
               </Link>
               <Link
-                href="/products/black"
+                href="/products"
                 className="btn btn-lg"
                 style={{
                   backgroundColor: '#ffffff',
@@ -140,7 +140,7 @@ export default function Home() {
           <div className="row g-4">
             <div className="col-12 col-md-4">
               <Link
-                href="/industry/modification"
+                href="/industry"
                 style={{ textDecoration: 'none' }}
               >
                 <div
@@ -186,7 +186,7 @@ export default function Home() {
             </div>
             <div className="col-12 col-md-4">
               <Link
-                href="/products/black"
+                href="/products"
                 style={{ textDecoration: 'none' }}
               >
                 <div
